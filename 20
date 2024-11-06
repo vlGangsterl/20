@@ -1,0 +1,164 @@
+{//suma tres numeros
+let numero1=1
+let numero2=1
+let numero3=1
+let resultado=numero1+numero2+numero3
+console.log(resultado)}//1
+{//primer grado de una variable
+  let en=5
+  let resultado=en+4
+  console.log(resultado)
+}//2
+{//suma tres numeros
+let numero1=1
+let numero2=1
+let numero3=1
+let resultado=numero1+numero2+numero3
+console.log(resultado)}//3
+{//primer grado de una variable
+  let en=5
+  let resultado=en+4
+  console.log(resultado)
+}//4
+{//despejar x en 5*+50=60
+  let mg=5
+  let mn=+50
+  let ff=60
+  let despeja1=5
+  let despeja2=50//es negativa
+  let operacion=(ff-despeja1)/mg
+  let resultado=operacion
+  console.log(resultado)
+}//5
+{//centimetro a pulgadas
+let centimetros = 49
+let pulgadas = centimetros /24.5
+console.log(pulgadas)
+}//6
+{
+//promedio
+let a = 9
+let b = 7
+let c = 10
+let d = 9.5
+let promedio = (a+b+c+d)/4
+console.log(promedio)
+}//7
+{//cuadrado 250
+let numero = 250
+let cuadrado = (numero*numero)
+console.log(cuadrado)
+}//8
+{"5" ==="5"
+for(let index = 0; index< 11 ; index++)
+console.log("hola mundo")
+}//9
+{//millas marinas y normales}
+let mts=1852
+let mn=mts/1852
+let mm=mts/1609
+console.log(mn)
+console.log(mm)}//10
+{
+//cambio de la tienda
+let precio = 187
+let dd = 500
+let cambio = dd-precio
+console.log(cambio)
+}//11
+{
+//perimetro y area de un rectangulo
+let base = 5
+let altura = 4
+let perimetro = altura+altura+base+base
+let area = altura*base
+console.log(perimetro)
+console.log(area)
+}//12
+{
+//area y volumen de cilindro
+let r = 2
+let h = 8
+let pi = 3.1416
+let v = pi*(r*r)*h
+let a = 2*(pi)*r*h+(pi+pi)*(r*r)
+console.log(v)
+console.log(a)
+}//13
+{
+//perimetro y area de triangulo
+let h = 4
+let x = 3
+let y = 3
+let z = 3
+let perimetro = x+y+z
+let area = (h*x)/2
+console.log(perimetro)
+console.log(area)
+}//14
+{
+//multiplicación de tres numeros
+let num1 = 2
+let num2 = 2
+let num3 = 2
+let mlt = num1*num2*num3
+console.log(mlt)
+}//15
+{
+//compra de un terreno
+let cm = 1500
+let m = 150000
+let costo = m*cm
+console.log(costo)
+}//16
+{
+//calcular la edad de una persona en años dado su año de nacimiento
+let ad = 2008 
+let ds = 2024
+let edad = ds-ad
+console.log(edad)
+}//17
+{
+//numero=cero
+let num = promt("ingresa un numero")
+if(num=0){
+console.log("es cero")
+}else{
+  console.log("no es cero")
+}
+}//18
+{
+//suma positiva o negativa
+let num1 = prompt("ingrese el numero")
+let num2 = prompt("ingrese el numero")
+let suma = num1+num2
+console.log(suma)
+}//19
+{
+//costo terreno 2.0
+let com = 750
+let area = 900
+if (area> 500 ){
+  console.log("tienes un descuento de 10%")
+  let preciod = (com*area)/10*9
+  console.log(preciod)
+}else {
+  console.log("el precio es normal")
+  let precio = com*area
+  console.log(precio)
+}
+//20
+{
+//costo terreno 2.0
+let com = 750
+let area = 900
+if (area> 500 ){
+  console.log("tienes un descuento de 10%")
+  let preciod = (com*area)/10*9
+  console.log(preciod)
+}else {
+  console.log("el precio es normal")
+  let precio = com*area
+  console.log(precio)
+}
+
